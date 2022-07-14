@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Price Signer
+There's one API route in this project which queries the price of a Bitstamp trading pair, converts the response to a field element, signs the field element, and returns the price and signature. 
+
 ## Getting Started
 
 First, run the development server:
